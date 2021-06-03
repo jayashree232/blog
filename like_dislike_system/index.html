@@ -1,0 +1,371 @@
+<html>
+<head>
+  <!--<link rel="stylesheet" type="text/css" href="vote_rating_style.css">-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--this is for home.html-->
+<style>
+
+body {
+  background-color: grey;
+}
+.p{
+font-size:50px;
+font-family:verdana;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  
+
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  
+  color: white;
+}
+hr{
+  border: 5px solid white;
+  border-radius: 3px;
+  }
+  <!--blog-->
+  body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 50px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 95%;
+   padding-left: 30px;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  width:100%
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: black;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+  }
+ <!--column-->
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30.33%;
+  padding:10px;
+  height: 425px; /* Should be removed. Only for demonstration */
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+<!--views-->
+.count{
+font-size: 20px;
+font-shadow:1px 1px 10px;
+}
+.counter{
+* {
+  box-sizing: border-box;
+ 
+}
+/* Create two equal columns that floats next to each other */
+
+  float: left;
+  width: 10%;
+  padding: 10px;
+  height: 30px; /* Should be removed. Only for demonstration */
+  background-color:white;
+  position: absolute;
+  left: 50%;
+     
+}
+
+
+#more {display: none;}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+
+/* mouse over link */
+.b:hover {
+  color: red;
+}
+
+</style>
+ </head>
+
+<body>
+<span class="p">
+<b>
+Blogging
+</span>
+<span class="counter">
+Total Views:<span class="count">00</span>
+</span> 
+<div><input type="text" placeholder="Search.."></div>
+<div class="topnav" style="padding-left:16px">
+  <a class="active" href="#">Home</a>
+	  <a href="#">Nation</a>
+	  <a href="#">Sports</a>
+	  <a href="#">politics</a>
+	  	  <a href="#">Entertainment</a>
+		  	  <a href="login.html">login</a>
+			  	  <a href="#">Contact us</a>
+</div>
+<hr>
+<div class="row">
+  <div class="column" style="margin-left: 30px;background-color:#aaa;">
+  <img src="blog1.jpg" width="100%" height="100px"/>
+    <h2>How To Create Own Blog</h2>
+    <p>If you're thinking of starting a blog of your own, but just don't have a clue on what to blog about, then fear not!
+In this article, I have included a whole load of blog examples from a wide variety of different niches, all run on different blogging platforms like WordPress, Joomla! and Drupal.</p>
+<p>Jan 1 . 2 min read
+  </div>
+  <div class="column" style="background-color:#aaa;">
+	<img src="blog2.jpg" width="60px" height="60px" 
+			style="vertical-align: text-top;" >Hypertext Markup Language(HTML)
+		<p style="color:black;font-size:10px;">Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. </p>
+    <img src="blog3.jpg" width="60px" height="60px" 
+			style="vertical-align: text-top;">Cascading Style Sheets(css)
+		<p style="color:black;font-size:10px;">Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript</p>
+    <img src="blog4.jpg" width="60px" height="60px" 
+			style="vertical-align: text-top;">JavaScript(js)   
+				<p style="color:black;font-size:10px;">JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification</p>
+ </div>
+  <div class="column" style="background-color:#aaa;">
+  <img src="blog5.jpg" width="100%" height="40%" >
+  <p style="color:black;font-size:10px;">A healthy diet is one that helps maintain or improve overall health.<span id="dots">...</span><span id="more">A healthy diet provides the body with essential nutrition: fluid, macronutrients, micronutrients, and adequate calories.[1][2]
+A healthy diet may contain fruits, vegetables, and whole grains, and includes little to no processed food and sweetened beverages. The requirements for a healthy diet can be met from a variety of plant-based and animal-based foods, although a non-animal source of vitamin B12 is needed for those following a vegan diet.[3] Various nutrition guides are published by medical and governmental institutions to educate individuals on what they should be eating to be healthy. Nutrition facts labels are also mandatory in some countries to allow consumers to choose between foods based on the components relevant to health
+  </span></p>Jan 4 2020 . 10 min read
+<button onclick="myFunction()" id="myBtn">Read more</button>
+ <input type="image" src="like.png" onclick="like_insertion();" width="20px" height="20px">
+   <input type="image" src="dislike.png" onclick="dislike_insertion();" width="20px" height="20px"> 
+   <span id="total_votes" ></span>
+  </div>
+</div>
+<hr>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+	<h2>Welcome To Blogging,</h2>
+	<h2><div>Keep your audience in mind. ...</div></h2>
+	<img src="blog6.jpg" style="vertical-align: text-top;" / >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+    </div>
+   </div>
+  </div>
+     <hr>
+  <div class="row">
+  <div class="column" style="margin-left: 30px;background-color:#aaa;">
+  <img src="blog7.jpg" width="100%" height="100px"/>
+    <h2>How To Create Own Blog</h2>
+    <p>In communications and information processing, code is a system of rules to convert information - such as a letter, word, sound, image, or gesture-into another form, sometimes shortened or secret, for communication through a communication channel or storage in a storage medium.<p>
+<p>Jan 4 . 3 min read
+  </div>
+  <div class="column" style="background-color:#aaa;">
+	<img src="blog8.jpg" width="60px" height="60px" 
+			style="vertical-align: text-top;" >Flowers
+		<p style="color:black;font-size:10px;">A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants (plants of the division Magnoliophyta, also called angiosperms). </p>
+    <img src="blog9.jpg" width="60px" height="60px" 
+			style="vertical-align: text-top;">Dessert
+		<p style="color:black;font-size:10px;">Dessert (/dɪˈzɜːrt/) is a course that concludes a meal.The term dessert can apply to many confections, such as biscuits, cakes, cookies, custards, gelatins, ice creams, pastries, pies, puddings, sweet soups, and tarts</p>
+    <img src="blog10.jpg" width="60px" height="60px" 
+			style="vertical-align: text-top;">Deity   
+				<p style="color:black;font-size:10px;">A deity or god is a supernatural being considered divine or sacred. The Oxford Dictionary of English defines deity as "a god or goddess", or anything revered as divine. A goddess is a female deity. </p>
+ </div>
+  <div class="column" style="background-color:#aaa;">
+  <img src="blog11.jpg" width="100%" height="40%" >
+  <p style="color:black;font-size:10px;">Maldives, officially the Republic of Maldives, is a small archipelagic state in South Asia, situated in the Arabian Sea of the Indian Ocean. It lies southwest of Sri Lanka and India, about 700 kilometres from the Asian continent's mainland.
+  </span></p>Jan 4 2020 . 6 min read
+  <img src="blog12.jpg" width="100%" height="40%" >
+</div>
+ </div>
+<hr>
+<div class="footer">
+ <a href="#" style="color:white;text-decoration: none;">About us</a>&nbsp &nbsp
+  <a href="#" style="color:white;text-decoration: none;">Privacy Policy</a>&nbsp &nbsp
+  <a href="#" style="color:white;text-decoration: none;">Newsletter</a>&nbsp &nbsp
+  <a href="#" style="color:white;text-decoration: none;">Sitemap</a>&nbsp &nbsp
+  <h2 style="color:white">FOLLOW US ON</h2>&nbsp
+  <!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-rss"></a>
+<h5 style="color:white">Copyright &copy; 2019 &nbsp Shree Technology &nbsp  &nbsp &nbsp All rights reserved</h5>
+</div>
+<script>
+<!--views-->
+ function updateCounter(){
+ fetch('https://api.countapi.xyz/update/blog/bloggingchannel/?amount=1')
+   .then(res => res.json())
+   .then(data => counterElement.innerHTML = data.value)
+ }
+   updateCounter()
+counterElement =document.getElementsByClassName('count')[0];
+
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+
+</script>
+ <script type="text/javascript">
+   function like_insertion()
+    {
+$.ajax({
+   type: 'post',
+     url: 'collect_rating.php',
+     data: {
+       post_liked:"like"
+     },
+     success: function (response) {
+        $('#total_votes').slideDown()
+       {   
+         $('#total_votes').html(response);
+       }
+     }
+     });
+    }
+    function dislike_insertion()
+    {
+   $.ajax({
+  
+  type: 'post',
+     url: 'collect_rating.php',
+     data: {
+       post_dislike:"dislike"
+     },
+     success: function (response) {
+        $('#total_votes').slideDown()
+       {   
+         $('#total_votes').html(response);
+       }
+     }
+     });
+    }
+</script>
+</body>
+</html>
